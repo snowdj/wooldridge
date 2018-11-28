@@ -1,13 +1,17 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^data-raw$
+^devscripts$
 ^\.travis\.yml$
 ^Wooldridge-6th.zip$
 ^Wooldridge-5th.zip$
 ^Data Sets- R$
 ^R data sets for 5e$
+^stata$
+^cengage$
 ^cran-comments.md$
 ^appveyor\.yml$
 ^codecov\.yml$
 ^Appendex_notes.txt$
 ^docs$
+

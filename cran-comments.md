@@ -1,24 +1,40 @@
 
 # Test environments passing
-* Local: R version 3.4.3 (2017-11-30), x86_64-w64-mingw32 (64-bit)
-* win-builder: , R Under development (unstable) (2018-01-04 r74054), x86_64-w64-mingw32(64-bit)
-* travis-ci: R version 3.4.2 (2017-01-27), x86_64-pc-linux-gnu (64-bit), Ubuntu 14.04.5 LTS, R 3.4.1 
-* AppVeyor: R version 3.4.3 Patched (2018-01-05 r74073), i386-w64-mingw32/i386 (32-bit), Windows Server 2012 R2 x64 (build 9600)
-
+* Local: R version 3.5.1 (2018-07-02), x86_64-pc-linux-gnu (64-bit), Ubuntu 16.04.1 LTS
+* win-builder: R version 3.5.1 (2018-07-02), using platform: x86_64-w64-mingw32 (64-bit)
+* R-hub: using R version 3.5.0 (2018-04-23), using platform: x86_64-apple-darwin15.6.0 (64-bit)
+* R-hub: using R version 3.3.3 (2017-03-06), using platform: x86_64-apple-darwin13.4.0 (64-bit)
+* AppVeyor: 3.5.1 Patched (2018-10-07 r75413), Platform: x86_64-w64-mingw32/x64 (64-bit), Running under: Windows Server 2012 R2 x64 (build 9600)
+* travis-ci: R version 3.5.1 (2017-01-27, Travis date error?), Platform: x86_64-pc-linux-gnu (64-bit), Running under: Ubuntu 14.04.5 LTS
 
 ## Local R CMD check results
-There were no ERRORs, WARNINGs or NOTEs
-0 errors | 0 warnings | 0 notes
+Checking installed package size ... NOTE
+nstalled size is  5.5Mb
+  sub-directories of 1Mb or more:
+    data   4.6Mb
+R CMD check results
+0 errors | 0 warnings | 1 note
 R CMD check succeeded
 
-
 ## win-builder
-Status: 1 NOTE
-Possibly mis-spelled words in DESCRIPTION: 
-Econometrics (3:41)
-Wooldridge (4:33, 23:14)
-econometrics (8:45, 22:40)
-wooldridge (10:60, 19:70)
+checking installed package size ... NOTE
+  installed size is  5.5Mb
+  sub-directories of 1Mb or more:
+    data   4.7Mb
+(CRAN granted previos exception on version 1.3.0)
+
+## R-hub x86_64-apple-darwin15.6.0 (64-bit)
+N  checking installed package size
+     installed size is  5.4Mb
+     sub-directories of 1Mb or more:
+       data   4.6Mb
+(CRAN granted previos exception on version 1.3.0)
+
+## R-hub x86_64-apple-darwin13.4.0
+N  checking installed package size
+     installed size is  5.4Mb
+     sub-directories of 1Mb or more:
+       data   4.6Mb
 
 ## travis-ci
 Done. Your build exited with 0.
